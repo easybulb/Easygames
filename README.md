@@ -59,7 +59,23 @@ The current highlight of Easygames is **Swat the Fly**—a fast-paced game where
 
 ### Wireframes
 
-- Wireframes were created to plan the layout of the Easygames platform and individual game pages. These include navigation elements, game areas, and UI elements.
+Wireframes were created with Balsamiq to plan the layout of the Easygames platform and individual game pages.
+
+- #### Home Page Large Screens
+
+<img src="./docs/wireframe/homepage-large-screens.png" alt="Home Page Wire Frame Large" style="width: 50%">
+
+- #### Home Page Mobile Screens
+
+<img src="./docs/wireframe/mobile-page.png" alt="Home Page Wire Frame Mobile" style="width: 50%">
+
+- #### Swat The Fly Homepage
+
+<img src="./docs/wireframe/swat-game-start.png" alt="Swat The Fly Homepage" style="width: 50%">
+
+- #### Swat The Fly Gameplay
+
+<img src="./docs/wireframe/swat-game-inside.png" alt="Swat The Fly Gameplay" style="width: 50%">
 
 ## Game Documentation
 
