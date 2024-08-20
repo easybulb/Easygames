@@ -138,7 +138,7 @@ main {
   
   .btn {
     display: inline-block;
-    background-color: var(--primary-color);
+    background-color: #333;
     color: #fff;
     padding: 0.8rem 1.5rem;
     border: none;
@@ -148,7 +148,7 @@ main {
   }
   
   .btn:hover {
-    background: #ddd;
+    background: rgb(9, 127, 127);
   }
 
 /* Footer */
@@ -238,6 +238,33 @@ footer p {
 
 }
 
+@media (max-width: 768px) {
+    .section-showcase .container {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  
+    .section-showcase .container div:first-child {
+      order: 2;
+    }
+  
+    .section-showcase .container div:nth-child(2) {
+      order: -1;
+    }
+  
+    .section-showcase h1 {
+      font-size: 2rem;
+    }
+  
+    .section-showcase img {
+      width: 95%;
+      margin: auto;
+    }
 
+    .section-showcase p {
+        margin: 1rem 1rem;
+      }
+
+    }
 
 
