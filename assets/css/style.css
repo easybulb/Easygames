@@ -15,6 +15,7 @@ body {
     color: #333;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 h1, h2, h3, h4 {
@@ -99,4 +100,46 @@ nav ul {
 .nav-toggle-label:hover {
     color: gray;
 }
+
+/* ------------------------------------ Homepage Main-- */
+main {
+    background-color: #fafafa;
+    /* Make element take up space and push footer down */
+    flex: 1 0 auto;
+}
+
+/* ------------------------------------ Footer-- */
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+#socials {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+    margin-bottom: -8px;
+}
+
+#socials li {
+    list-style-type: none;
+}
+
+#socials li a {
+    color: #6b6b6b;
+    font-size: 1.5rem;
+}
+
+#socials li a:hover {
+    color: rgb(9, 127, 127);
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.7rem;
+    padding-bottom: 10px;
+}
+
+
 
