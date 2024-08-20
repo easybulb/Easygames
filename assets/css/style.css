@@ -143,3 +143,64 @@ footer p {
 
 
 
+
+
+/* ------------------------------------ Media Queries for tablets -- */
+@media screen and (min-width: 432px) {
+
+    /*--- Header for Home ---*/
+    header {
+        height: 95vh;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav ul {
+        background-color: transparent;
+        padding: 0px 0;
+    }
+
+    #nav-menu {
+        display: flex;
+        gap: 0rem;
+        justify-content: flex-end;
+        margin-top: -37px;
+        font-size: 110%;
+        font-weight: 300;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    header a,
+    header > h1 {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    /*--- Main ---*/
+    #welcome-section {
+        padding: 0 80px;
+    }
+
+    /*--- Footer ---*/
+    #socials {
+        justify-content: left;
+        margin-left: 40px;
+        gap: 1.5rem;
+    }
+
+    footer p {
+        text-align: left;
+        margin-left: 2.5rem;
+        font-size: 0.7rem;
+        padding-top: 5px;
+    }
+
+}
+
+
+
