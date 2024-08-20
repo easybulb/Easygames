@@ -115,9 +115,6 @@ main {
 }
 
 /* showcase section */
-.section-showcase {
-    margin: 1rem 0;
-  }
 
   .section-showcase .container {
     display: grid;
