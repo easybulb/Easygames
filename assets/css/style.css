@@ -75,8 +75,14 @@ nav {
     font-weight: 300;
     letter-spacing: 1.5px;
     list-style-type: none;
-    /* ----- Moves Navbar Dropdown up and down on mobile-- */
+    /* Moves Navbar Dropdown up and down on mobile */
     margin-top: 40%;
+}
+
+/* Active page styling */
+#nav-menu li a.current-page {
+    border-bottom: 2px solid #fcae04;
+    padding-bottom: 2px;
 }
 
 nav ul {
@@ -84,7 +90,7 @@ nav ul {
     padding: 30px 0;
 }
 
-/* ------------------------------------ Nav Toggle-- */
+/* Nav Toggle */
 #nav-toggle:checked~nav {
     display: block
 }
@@ -101,14 +107,14 @@ nav ul {
     color: gray;
 }
 
-/* ------------------------------------ Homepage Main-- */
+/* Homepage Main */
 main {
     background-color: #fafafa;
     /* Make element take up space and push footer down */
     flex: 1 0 auto;
 }
 
-/* ------------------------------------ Footer-- */
+/* Footer */
 footer {
     background-color: #333;
     color: #fff;
@@ -148,7 +154,7 @@ footer p {
 /* ------------------------------------ Media Queries for tablets -- */
 @media screen and (min-width: 432px) {
 
-    /*--- Header for Home ---*/
+    /* Header for Home */
     header {
         height: 95vh;
     }
