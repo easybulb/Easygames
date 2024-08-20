@@ -63,19 +63,19 @@ Wireframes were created with Balsamiq to plan the layout of the Easygames platfo
 
 - #### Home Page Large Screens
 
-<img src="./docs/wireframe/homepage-large-screens.png" alt="Home Page Wire Frame Large" style="width: 50%">
+<img src="./docs/wireframe/homepage-large-screens.png" alt="Home Page Wire Frame Large" style="width: 60%">
 
 - #### Home Page Mobile Screens
 
-<img src="./docs/wireframe/mobile-page.png" alt="Home Page Wire Frame Mobile" style="width: 50%">
+<img src="./docs/wireframe/mobile-page.png" alt="Home Page Wire Frame Mobile" style="width: 30%">
 
 - #### Swat The Fly Homepage
 
-<img src="./docs/wireframe/swat-game-start.png" alt="Swat The Fly Homepage" style="width: 50%">
+<img src="./docs/wireframe/swat-game-start.png" alt="Swat The Fly Homepage" style="width: 70%">
 
 - #### Swat The Fly Gameplay
 
-<img src="./docs/wireframe/swat-game-inside.png" alt="Swat The Fly Gameplay" style="width: 50%">
+<img src="./docs/wireframe/swat-game-inside.png" alt="Swat The Fly Gameplay" style="width: 70%">
 
 ## Game Documentation
 
