@@ -67,7 +67,7 @@ Wireframes were created with Balsamiq to plan the layout of the Easygames platfo
 
 - #### Home Page Mobile Screens
 
-<img src="./docs/wireframe/mobile-page.png" alt="Home Page Wire Frame Mobile" style="width: 30%">
+<img src="./docs/wireframe/homepage-mobile.png" alt="Home Page Wire Frame Mobile" style="width: 30%">
 
 - #### Swat The Fly Homepage
 
