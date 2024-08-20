@@ -37,11 +37,15 @@ The current highlight of Easygames is **Swat the Fly**—a fast-paced game where
 
 ## User Experience (UX)
 
-### User Stories
+### User Stories - General Website
 
-- **As a player**, I want to access a variety of simple, fun games from one platform.
-- **As a player**, I want to easily navigate between different games on the platform.
-- **As a player**, I want each game to be intuitive and easy to play without needing complex instructions.
+- As a **user**, I can access a Home page, so that I can get an overview of what Easygames offers.
+- As a **user**, I can navigate using a clear and intuitive navigation bar, so that I can easily find my way around the website.
+- As a **user**, I can visit an About page, so that I can learn more about the purpose and background of Easygames.
+- As a **user**, I can explore a Games page, so that I can see a list of available games with brief descriptions and links to play each game.
+- As a **user**, I can access a Suggest Game page, so that I can submit ideas for new games or features I would like to see added.
+- As a **user**, I can see a footer on every page, so that I have quick access to important links and information like contact details and legal notices.
+- As a **user**, I can see a favicon in my browser tab, so that I can easily identify the Easygames website when multiple tabs are open.
 
 ### Design
 
