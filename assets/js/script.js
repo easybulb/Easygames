@@ -18,3 +18,12 @@ function moveFly() {
     fly.style.left = `${x}px`;
     fly.style.top = `${y}px`;
 }
+
+// Increases the score and moves fly when clicked
+function swatFly() {
+    score++;
+    scoreBoard.textContent = `Score: ${score}`;
+    moveFly();
+}
+
+fly.addEventListener('click', swatFly);
