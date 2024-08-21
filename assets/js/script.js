@@ -2,10 +2,9 @@ let score = 0;
 let countdown;
 let timeLeft;
 
-// Access game html elements
-let fly = document.getElementById('fly');
-let scoreBoard = document.getElementById('score-board')
-let gameContainer = document.getElementById('game-container')
+const fly = document.getElementById('fly');
+const scoreBoard = document.getElementById('score-board');
+const gameContainer = document.getElementById('game-container');
 const timer = document.getElementById('timer');
 const startScreen = document.getElementById('start-screen');
 const endScreen = document.getElementById('end-screen');
@@ -14,21 +13,26 @@ const restartButton = document.getElementById('restart-button');
 const finalScore = document.getElementById('final-score');
 const timeSelect = document.getElementById('time-select');
 
-// calculates a random position for fly.
 function getRandomPosition() {
     const x = Math.floor(Math.random() * (gameContainer.clientWidth - fly.clientWidth));
     const y = Math.floor(Math.random() * (gameContainer.clientHeight - fly.clientHeight));
     return { x, y };
 }
 
-// Position fly at random location
 function moveFly() {
     const { x, y } = getRandomPosition();
     fly.style.left = `${x}px`;
     fly.style.top = `${y}px`;
 }
 
-// Start game by set score to 0, start timer, and displaying the game container.
+function swatFly() {
+    score++;
+    scoreBoard.textContent = `Score: ${score}`;
+    moveFly();
+}
+
+fly.addEventListener('click', swatFly);
+
 function startGame() {
     score = 0;
     scoreBoard.textContent = `Score: ${score}`;
@@ -49,12 +53,16 @@ function startGame() {
     }, 1000);
 }
 
-fly.addEventListener('click', swatFly);
-
-// Stops the game when the timer runs out and displays the end screen.
 function endGame() {
     clearInterval(countdown);
     gameContainer.style.display = 'none';
     endScreen.style.display = 'flex';
     finalScore.textContent = `Your final score is ${score}`;
 }
+
+startButton.addEventListener('click', startGame);
+restartButton.addEventListener('click', () => {
+    startScreen.style.display = 'flex';
+    endScreen.style.display = 'none';
+    gameContainer.style.display = 'none';
+});
