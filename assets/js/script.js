@@ -104,3 +104,35 @@ restartButton.addEventListener('touchstart', (e) => {
     endScreen.style.display = 'none';
     gameContainer.style.display = 'none';
 });
+
+    // Navigation Buttons
+    const homeButton = document.getElementById('home-button');
+    const gamesButton = document.getElementById('games-button');
+    const infoButton = document.getElementById('info-button');
+    const infoPopup = document.getElementById('info-popup');
+    const closePopup = document.getElementById('close-popup');
+
+    // Navigation Button Event Listeners
+    homeButton.addEventListener('click', () => {
+        window.location.href = 'index.html'; // Replace with actual home page link
+    });
+
+    gamesButton.addEventListener('click', () => {
+        window.location.href = 'games.html'; // Replace with actual games page link
+    });
+
+    // Info Button Event Listeners
+    infoButton.addEventListener('click', () => {
+        infoPopup.style.display = 'block';
+    });
+
+    closePopup.addEventListener('click', () => {
+        infoPopup.style.display = 'none';
+    });
+
+    // Close popup when clicking outside of the content
+    window.addEventListener('click', (event) => {
+        if (event.target === infoPopup) {
+            infoPopup.style.display = 'none';
+        }
+    });
