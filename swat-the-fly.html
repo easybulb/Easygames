@@ -11,9 +11,23 @@
     <link rel="stylesheet" href="assets/css/styleswat.css">
 </head>
 <body>
-    <div id="game-container">
-        <div id="fly"></div>
-        <div id="score-board">Score: 0</div>
+    <div id="start-screen">
+        <h1>Swat the Fly Game</h1>
+        <label for="time-select">Select Countdown Time (seconds):</label>
+        <input type="number" id="time-select" min="10" max="60" value="30">
+        <button id="start-button">Start Game</button>
+
+        <div id="game-container" style="display: none;">
+            <div id="fly"></div>
+            <div id="score-board">Score: 0</div>
+            <div id="timer">Time: 30s</div>
+        </div>
+
+        <div id="end-screen" style="display: none;">
+            <h1>Game Over</h1>
+            <p id="final-score"></p>
+            <button id="restart-button">Play Again</button>
+        </div>
     </div>
     <script src="assets/js/script.js"></script>
 </body>
