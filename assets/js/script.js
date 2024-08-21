@@ -35,8 +35,12 @@ function swatFly() {
     moveFly();
 }
 
-// Attach the swatFly function to the click event on the fly element
+// Attach the swatFly function to both click and touchstart events on the fly element
 fly.addEventListener('click', swatFly);
+fly.addEventListener('touchstart', (e) => {
+    e.preventDefault(); // Prevents the default touch behavior
+    swatFly();
+});
 
 // Function to start the game
 function startGame() {
@@ -70,10 +74,22 @@ function endGame() {
     finalScore.textContent = `Your final score is ${score}`;
 }
 
+// Attach the startGame function to both click and touchstart events on the start button
 startButton.addEventListener('click', startGame);
+startButton.addEventListener('touchstart', (e) => {
+    e.preventDefault();
+    startGame();
+});
 
-// Attach the startGame function to the click event on the start button
+// Attach the restartGame function to both click and touchstart events on the restart button
 restartButton.addEventListener('click', () => {
+    startScreen.style.display = 'flex';
+    endScreen.style.display = 'none';
+    gameContainer.style.display = 'none';
+});
+
+restartButton.addEventListener('touchstart', (e) => {
+    e.preventDefault();
     startScreen.style.display = 'flex';
     endScreen.style.display = 'none';
     gameContainer.style.display = 'none';
