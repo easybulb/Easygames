@@ -27,3 +27,11 @@ function swatFly() {
 }
 
 fly.addEventListener('click', swatFly);
+
+// Start game for random test
+function startGame() {
+    moveFly();
+    setInterval(moveFly, 1000); // Fly moves every second
+}
+
+startGame();
