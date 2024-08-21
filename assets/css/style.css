@@ -158,6 +158,51 @@ main {
     background: rgb(9, 127, 127);
   }
 
+  /* large text section */
+
+.section-large-text {
+    position: relative;
+    background: url("../images/section-large-image.png") bottom center/cover
+      no-repeat;
+    height: 600px;
+  }
+  
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .section-large-text-inner {
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    max-width: 860px;
+    padding: 5rem 0;
+  }
+  
+  .section-large-text-inner h2 {
+    font-size: 5rem;
+    margin-top: 1rem;
+  }
+  
+  .section-large-text-inner h3 {
+    font-size: 2rem;
+  }
+  
+  .section-large-text-inner p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+
 /* Footer */
 footer {
     background-color: #333;
