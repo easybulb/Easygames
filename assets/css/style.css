@@ -165,6 +165,7 @@ main {
     background: url("../images/section-large-image.png") bottom center/cover
       no-repeat;
     height: 600px;
+    margin-top: 3rem;
   }
   
   .overlay {
