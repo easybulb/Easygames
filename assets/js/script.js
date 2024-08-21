@@ -28,11 +28,25 @@ function moveFly() {
     fly.style.top = `${y}px`;
 }
 
-// Increases the score and moves fly when clicked
-function swatFly() {
-    score++;
+// Start game by set score to 0, start timer, and displaying the game container.
+function startGame() {
+    score = 0;
     scoreBoard.textContent = `Score: ${score}`;
+    timeLeft = parseInt(timeSelect.value);
+    timer.textContent = `Time: ${timeLeft}s`;
+
+    startScreen.style.display = 'none';
+    gameContainer.style.display = 'block';
+    endScreen.style.display = 'none';
+
     moveFly();
+    countdown = setInterval(() => {
+        timeLeft--;
+        timer.textContent = `Time: ${timeLeft}s`;
+        if (timeLeft <= 0) {
+            endGame();
+        }
+    }, 1000);
 }
 
 fly.addEventListener('click', swatFly);
