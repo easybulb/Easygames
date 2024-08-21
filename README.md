@@ -150,7 +150,8 @@ Wireframes were created with Balsamiq to plan the layout of the Easygames platfo
 - #### Swat the Fly Game Not Starting on Gitpod
 The "Swat the Fly" game does not start when running on Gitpod, although it works fine on local environments like VS Code. This issue may be related to differences in how Gitpod handles file paths, scripts, or other environment-specific settings. Further investigation is needed to identify the root cause and implement a fix.
 
-#### How I fixed it
+#### Solution: 
+After removing some of the meta tags, the game started working correctly. The issue was isolated to a conflict with one or more of the meta tags. By reintroducing the essential meta tags one by one—specifically the description, keywords, and author tags—the game continued to function correctly. The issue may have been related to how Gitpod handled certain meta tags, affecting the loading or execution of the game.
 
 ## Deployment
 
