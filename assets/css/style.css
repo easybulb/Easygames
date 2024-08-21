@@ -122,7 +122,17 @@ main {
     gap: 3rem;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1.5rem;
   }
+
+  .section-showcase img {
+    width: 100%;
+    max-width: 500px; /* Control max-width to ensure the image doesn't stretch */
+    display: block; /* Ensures the image block takes full width */
+    margin: 0 auto; /* Center the image */
+}
   
   .section-showcase h1 {
     font-size: 4rem;
@@ -239,6 +249,7 @@ footer p {
     .section-showcase .container {
       grid-template-columns: 1fr;
       text-align: center;
+      padding: 0;
     }
   
     .section-showcase .container div:first-child {
