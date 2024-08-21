@@ -147,7 +147,10 @@ Wireframes were created with Balsamiq to plan the layout of the Easygames platfo
 
 ### Known Bugs
 
-- Will update bugs as I continue coding
+- #### Swat the Fly Game Not Starting on Gitpod
+The "Swat the Fly" game does not start when running on Gitpod, although it works fine on local environments like VS Code. This issue may be related to differences in how Gitpod handles file paths, scripts, or other environment-specific settings. Further investigation is needed to identify the root cause and implement a fix.
+
+#### How I fixed it
 
 ## Deployment
 
