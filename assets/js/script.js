@@ -51,10 +51,10 @@ function startGame() {
 
 fly.addEventListener('click', swatFly);
 
-// Start game for random test
-function startGame() {
-    moveFly();
-    setInterval(moveFly, 1000); // Fly moves every second
+// Stops the game when the timer runs out and displays the end screen.
+function endGame() {
+    clearInterval(countdown);
+    gameContainer.style.display = 'none';
+    endScreen.style.display = 'flex';
+    finalScore.textContent = `Your final score is ${score}`;
 }
-
-startGame();
