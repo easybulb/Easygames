@@ -14,20 +14,9 @@ const restartButton = document.getElementById('restart-button');
 const finalScore = document.getElementById('final-score');
 const timeSelect = document.getElementById('time-select');
 
-// Calculates a random position for the fly element within the boundaries of the game container.
 function getRandomPosition() {
-    const containerRect = gameContainer.getBoundingClientRect(); // Get container bounds
-    const flyWidth = fly.clientWidth; // Get the current width of the fly element
-    const flyHeight = fly.clientHeight; // Get the current height of the fly element
-
-        // Calculate the maximum X and Y coordinates the fly can have while remaining fully visible within the game container
-    const maxX = containerRect.width - flyWidth;
-    const maxY = containerRect.height - flyHeight;
-
-    // Generate random X and Y coordinates within the allowed range
-    const x = Math.random() * maxX;
-    const y = Math.random() * maxY;
-
+    const x = Math.floor(Math.random() * (gameContainer.clientWidth - fly.clientWidth));
+    const y = Math.floor(Math.random() * (gameContainer.clientHeight - fly.clientHeight));
     return { x, y };
 }
 
