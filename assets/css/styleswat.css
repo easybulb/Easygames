@@ -76,3 +76,28 @@ body {
     font-size: 24px;
     font-weight: bold;
 }
+
+/* For screens smaller than 600px */
+@media (max-width: 600px) {
+    #game-container {
+        width: 100%;  /* Adjust game container width */
+        height: 60vh; /* Adjust game container height */
+    }
+
+    #fly {
+        width: 40px;  /* Adjust fly size for smaller screens */
+        height: 40px;
+    }
+
+    #score-board, #timer {
+        font-size: 20px;  /* Adjust text sizes */
+    }
+
+    #start-screen h1, #end-screen h1 {
+        font-size: 28px;  /* Adjust heading sizes */
+    }
+
+    #start-button, #restart-button {
+        font-size: 16px;  /* Adjust button sizes */
+    }
+}
