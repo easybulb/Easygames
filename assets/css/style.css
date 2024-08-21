@@ -291,6 +291,8 @@ footer p {
 }
 
 @media (max-width: 768px) {
+
+  /* Showcase section */
     .section-showcase .container {
       grid-template-columns: 1fr;
       text-align: center;
@@ -317,6 +319,19 @@ footer p {
     .section-showcase p {
         margin: 1rem 1rem;
       }
+
+    /* Large text section */
+    .section-large-text-inner h2 {
+      font-size: 3rem;
+    }
+  
+    .section-large-text-inner h3 {
+      font-size: 1.5rem;
+    }
+  
+    .section-large-text-inner p {
+      font-size: 1.25rem;
+    }
 
     }
 
