@@ -26,3 +26,12 @@ body {
     border: 2px solid #000;
     overflow: hidden;
 }
+
+#fly {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-image: url('../images/fly.png');
+    background-size: cover;
+    cursor: pointer;
+}
