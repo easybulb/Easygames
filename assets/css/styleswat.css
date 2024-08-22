@@ -16,6 +16,10 @@ body {
     height: 100vh;
     background-color: #f0f0f0;
     font-family: "Catamaran", sans-serif;
+    background: url('../images/swat-game-background1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #game-container {
@@ -75,9 +79,9 @@ body {
 }
 
 #start-screen h1, #end-screen h1 {
-    font-size: 36px;
+    font-size: 50px;
     margin-bottom: 20px;
-    color: #4CAF50;
+    color: #3b38dc;
     text-shadow: 2px 2px #333; /* subtle text shadow */
 }
 
@@ -206,7 +210,7 @@ body {
     }
 
     #start-screen h1, #end-screen h1 {
-        font-size: 28px;  /* Adjust heading sizes */
+        font-size: 32px;  /* Adjust heading sizes */
     }
 
     #start-button, #restart-button {
