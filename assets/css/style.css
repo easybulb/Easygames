@@ -484,9 +484,35 @@ footer p {
     }
 
     /* Games Page*/
-    
-
+    #games-list h1 {
+      font-size: 2.5rem;
     }
+
+  #games-list p {
+      font-size: 1.2rem;
+    }
+
+  .games-grid {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+  .game-card img {
+      max-width: 250px;
+    }
+
+  .game-card h2 {
+      font-size: 1.8rem;
+    }
+
+  .game-card p {
+      font-size: 0.9rem;
+    }
+
+  .game-card .btn {
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+    }
+}
 
     @media (min-width: 1367px) {
 
