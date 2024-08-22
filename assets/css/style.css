@@ -40,18 +40,15 @@ header a {
 
 #logo {
     font-size: 140%;
-    border: 2px solid #fff;
     color: rgb(9, 127, 127);
 }
 
 #logo:hover {
-    border: 2px solid #fff;
     color:#444;
 }
 
 header ul a:hover {
     color: rgb(9, 127, 127);
-    font-size: 1.3rem;
 }
 
 header ul {
