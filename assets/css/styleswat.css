@@ -69,6 +69,10 @@ body {
     font-weight: 600;
     margin-top: 1rem;
     color: #000;
+    border: 2px solid #fff;
+    padding: 5px;
+    background: #fff;
+    border-radius: 10px;
 }
 
 #start-screen, #end-screen {
