@@ -35,7 +35,8 @@ body {
     background-size: cover;
     cursor: pointer;
     display: block;
-    z-index: 10;
+    z-index: 100;
+    opacity: 1;
 }
 
 #score-board {
@@ -164,6 +165,10 @@ body {
     #fly {
         width: 40px;  /* Adjust fly size for smaller screens */
         height: 40px;
+        z-index: 100;
+        position: absolute;
+        opacity: 1;
+        background-image: url('../images/fly.png')
     }
 
     #score-board, #timer {
