@@ -216,14 +216,6 @@ main {
   }
 
 /* About Page */
-#introduction img {
-  width: 100%;
-  max-width: 500px; /* Control max-width to ensure the image doesn't stretch */
-  display: block; /* Ensures the image block takes full width */
-  margin: 0 auto; /* Center the image */
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
 
 #mission h2 {
   font-size: 2rem;
