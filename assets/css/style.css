@@ -244,6 +244,76 @@ section a:hover {
   text-decoration: underline;
 }
 
+/* ---------------------------- Games Page */
+#games-list {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  background-color: #f5f5f5;
+}
+
+#games-list h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#games-list p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+/* Games Grid */
+.games-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Game Card */
+.game-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.game-card img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.game-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.game-card p {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+.game-card .btn {
+  background-color: rgb(9, 127, 127);
+  color: #fff;
+  padding: 0.7rem 1.2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1rem;
+  display: inline-block;
+}
+
+.game-card .btn:hover {
+  background-color: #333;
+}
+
 
 /* Footer */
 footer {
@@ -412,6 +482,9 @@ footer p {
       font-size: 1.5rem;
       text-align: center;
     }
+
+    /* Games Page*/
+    
 
     }
 
