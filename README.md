@@ -1,4 +1,9 @@
 # Easygames
+### Website: 
+https://easybulb.github.io/Easygames/index.html
+
+### Swat The Fly Game: 
+https://easybulb.github.io/Easygames/swat-the-fly.html
 
 <img src="./docs/easygames-shot.png" style="width: 70%">
 <img src="./docs/swatgame-shot.png" style="width: 70%">
