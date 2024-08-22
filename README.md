@@ -135,7 +135,7 @@ Wireframes were created with Balsamiq to plan the layout of the Easygames platfo
 
 ### Code Validation
 
-- <img src="./docs/css-validation.png" style="width: 70%">
+<img src="./docs/css-validation.png" style="width: 70%">
 
 ### Functionality Testing
 
@@ -143,7 +143,7 @@ Wireframes were created with Balsamiq to plan the layout of the Easygames platfo
 
 ### Browser Compatibility
 
-- Not yet tested
+<img src="./docs/lighthouse-test.png" style="width: 70%">
 
 ### Known Bugs
 
