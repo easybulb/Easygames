@@ -1,5 +1,8 @@
 # Easygames
 
+<img src="./docs/easygames-shot.png" style="width: 70%">
+<img src="./docs/swatgame-shot.png" style="width: 70%">
+
 *A collection of simple, enjoyable browser-based games designed to entertain and challenge players of all ages.*
 
 ## Table of Contents
