@@ -321,6 +321,17 @@ section a:hover {
   background-color: #fafafa;
 }
 
+#suggest-game h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+#suggest-game p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #666;
+}
+
 
 /* Footer */
 footer {
