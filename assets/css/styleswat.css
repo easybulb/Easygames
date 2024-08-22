@@ -66,8 +66,9 @@ body {
 
 #high-score-board {
     font-size: 1.5rem;
+    font-weight: 600;
     margin-top: 1rem;
-    color: rgb(9, 127, 127);
+    color: #000;
 }
 
 #start-screen, #end-screen {
