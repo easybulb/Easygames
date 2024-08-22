@@ -15,7 +15,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+    font-family: "Catamaran", sans-serif;
 }
 
 #game-container {
@@ -23,8 +23,10 @@ body {
     width: 80%;
     height: 80vh;
     background-color: #fff;
-    border: 2px solid #000;
+    border: 3px solid #444;
+    border-radius: 10px;
     overflow: hidden;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Soft shadow */
 }
 
 #fly {
