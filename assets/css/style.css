@@ -314,6 +314,13 @@ section a:hover {
   background-color: #333;
 }
 
+/* Suggest a Game Page */
+#suggest-game {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  background-color: #fafafa;
+}
+
 
 /* Footer */
 footer {
@@ -347,9 +354,6 @@ footer p {
     font-size: 0.7rem;
     padding-bottom: 10px;
 }
-
-
-
 
 
 /* ------------------------------------ Media Queries for tablets -- */
