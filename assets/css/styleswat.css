@@ -46,17 +46,15 @@ body {
     position: absolute;
     top: 10px;
     left: 10px;
-    font-size: 24px;
-    font-weight: bold;
 }
 
 #score-board, #timer {
     position: absolute;
     font-size: 24px;
-    font-weight: 00;
-    color: #333;
+    font-weight: 600;
+    color: #000;
     padding: 5px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.4);
     border-radius: 10px;
 }
 
@@ -77,6 +75,8 @@ body {
 #start-screen h1, #end-screen h1 {
     font-size: 36px;
     margin-bottom: 20px;
+    color: #4CAF50;
+    text-shadow: 2px 2px #333; /* subtle text shadow */
 }
 
 #time-select {
@@ -92,11 +92,8 @@ body {
 }
 
 #timer {
-    position: absolute;
     top: 10px;
     right: 10px;
-    font-size: 24px;
-    font-weight: bold;
 }
 
 /* Navigation Buttons */
