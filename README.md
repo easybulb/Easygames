@@ -135,7 +135,7 @@ Wireframes were created with Balsamiq to plan the layout of the Easygames platfo
 
 ### Code Validation
 
-- Coming soon
+- <img src="./docs/css-validation.png" style="width: 70%">
 
 ### Functionality Testing
 
