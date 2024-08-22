@@ -203,6 +203,7 @@ body {
     #game-container {
         width: 100%;  /* Adjust game container width */
         height: 60vh; /* Adjust game container height */
+        margin-top: -40px;
     }
 
     #fly {
