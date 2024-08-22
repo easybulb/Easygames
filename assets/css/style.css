@@ -24,7 +24,7 @@ h1, h2, h3, h4 {
 
 .box-style {
   padding: 15px 2px;
-  margin: 10px 0;
+  margin: 2rem 0;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
