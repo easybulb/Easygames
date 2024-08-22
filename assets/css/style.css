@@ -83,8 +83,9 @@ nav {
 }
 
 nav ul {
-    background-color: rgba(9, 127, 127, 0.6);
+    background-color: rgba(9, 127, 127, 0.9);
     padding: 30px 0;
+    border-radius: 30%;
 }
 
 /* Nav Toggle */
