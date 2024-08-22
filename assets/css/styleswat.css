@@ -22,6 +22,7 @@ body {
     position: relative;
     width: 80%;
     height: 80vh;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
     background-color: #fff;
     border: 3px solid #444;
     border-radius: 10px;
@@ -31,15 +32,17 @@ body {
 
 #fly {
     position: absolute;
-    width: 50px;
-    height: 50px;
-    background-image: url('/assets/images/fly.png');
+    width: 70px;
+    height: 70px;
+    background-image: url('/assets/images/fly80px.png');
     background-size: cover;
     cursor: pointer;
     display: block;
     z-index: 100;
     opacity: 1;
 }
+
+
 
 #score-board {
     position: absolute;
