@@ -216,6 +216,10 @@ main {
   text-align: center;
 }
 
+#testimonials {
+  margin: 0 10px;
+}
+
 blockquote {
   font-style: italic;
   background: #f9f9f9;
