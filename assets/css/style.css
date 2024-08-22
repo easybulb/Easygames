@@ -22,7 +22,7 @@ h1, h2, h3, h4 {
     line-height: 1.3;
 }
 
-section {
+.box-style {
   padding: 15px 2px;
   margin: 10px 0;
   background-color: #fff;
