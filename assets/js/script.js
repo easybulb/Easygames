@@ -1,10 +1,12 @@
 let score = 0;
 let countdown;
 let timeLeft;
+let highScore = localStorage.getItem('highScore') || 0;
 
 // Select and store references to DOM elements that will be manipulated
 const fly = document.getElementById('fly');
 const scoreBoard = document.getElementById('score-board');
+const highScoreBoard = document.createElement('div');
 const gameContainer = document.getElementById('game-container');
 const timer = document.getElementById('timer');
 const startScreen = document.getElementById('start-screen');
@@ -13,6 +15,11 @@ const startButton = document.getElementById('start-button');
 const restartButton = document.getElementById('restart-button');
 const finalScore = document.getElementById('final-score');
 const timeSelect = document.getElementById('time-select');
+
+// Display the high score on the screen
+highScoreBoard.textContent = `High Score: ${highScore}`;
+highScoreBoard.id = 'high-score-board';
+startScreen.appendChild(highScoreBoard);
 
 function getRandomPosition() {
     const x = Math.floor(Math.random() * (gameContainer.clientWidth - fly.clientWidth));
@@ -45,6 +52,7 @@ fly.addEventListener('touchstart', (e) => {
 function startGame() {
     score = 0; // Reset the score to 0 at the start of the game
     scoreBoard.textContent = `Score: ${score}`; // Reset the scoreboard
+    highScoreBoard.textContent = `High Score: ${highScore}`; // Display current high score
     timeLeft = parseInt(timeSelect.value);
     timer.textContent = `Time: ${timeLeft}s`;
 
@@ -71,6 +79,14 @@ function endGame() {
     gameContainer.style.display = 'none';
     endScreen.style.display = 'flex';
     finalScore.textContent = `Your final score is ${score}`;
+
+    // Check if the current score is higher than the stored high score
+    if (score > highScore) {
+        highScore = score; // Update high score
+        localStorage.setItem('highScore', highScore); // Save new high score in localStorage
+        highScoreBoard.textContent = `High Score: ${highScore}`; // Update high score display
+        finalScore.textContent += ` - New High Score!`; // Inform the player of their achievement
+    }
 }
 
 // Attach the startGame function to both click and touchstart events on the start button
