@@ -142,7 +142,9 @@ Wireframes were created with Balsamiq to plan the layout of the Easygames platfo
 
 ### Functionality Testing
 
-- Testing coming soon.
+- I have ran a console.log test and code is fine. Other manual test of game was also done by myself.
+
+<img src="./docs/functionality-testing.png" style="width: 70%">
 
 ### Browser Compatibility
 
@@ -160,8 +162,23 @@ After removing some of the meta tags, the game started working correctly. The is
 On mobile devices, the fly element in the "Swat the Fly" game sometimes does not appear, even though the countdown timer and score are visible.
 
 #### Solution: 
-
+Fixed the issue by setting z-index of the fly image to 10.
 
 ## Deployment
 
-Will deploy on Github pages
+Deployed on Github pages. Link https://easybulb.github.io/Easygames/index.html
+
+## Credits/Technologies Used
+
+- **HTML5**: For structuring the content on the web.
+- **CSS3**: For styling the website.
+- **Javascript**: For DOM Manipulation and functions.
+- **TinyPNG**: For image optimization.
+- **Git & GitHub**: For version control and hosting the project.
+- **Canva**: For creating and optimizing images and graphics.
+- **Chatgpt AI**: For project idea, images and code learning tips.
+- **Favicon.io**: For Favicon generation.
+- **Google Fonts**: For typography.
+
+## Developer
+- **Henry Ofodieze**
