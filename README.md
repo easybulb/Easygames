@@ -27,10 +27,7 @@
   - [Browser Compatibility](#browser-compatibility)
   - [Known Bugs](#known-bugs)
 - [Deployment](#deployment)
-- [Credits](#credits)
-  - [Content](#content)
-  - [Media](#media)
-- [Acknowledgements](#acknowledgements)
+- [Credits/Technologies Used](#Credits-Technologies-Used)
 
 ## Overview
 
@@ -62,7 +59,7 @@ The current highlight of Easygames is **Swat the Fly**—a fast-paced game where
 
 #### Imagery
 
-- Each game within Easygames uses unique imagery that fits its theme, enhancing the overall user experience. 
+- Image was generated from Canva and credits are at the bottom of this page. Each game within Easygames uses unique imagery that fits its theme, enhancing the overall user experience. 
 
 ### Wireframes
 
